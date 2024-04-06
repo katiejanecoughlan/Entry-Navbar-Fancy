@@ -144,15 +144,15 @@ body {
 }
 
 .nav-toggle > figure:nth-child(2) {
-	background: red;
+	background: #008080;
 }
 
 .nav-toggle > figure:nth-child(3) {
-	background: yellow;
+	background: #DC143C;
 }
 
 .nav-toggle > figure:nth-child(4) {
-	background: mediumspringgreen;
+	background: #FFD700;
 }
 
 .nav-toggle > label,
@@ -251,18 +251,11 @@ nav {
 	height: 100%;
 	background: linear-gradient(
 		120deg,
-		#ff0000,
-		#f84600,
-		#ee6600,
-		#e27f00,
-		#d49400,
-		#c4a700,
-		#b3b700,
-		#a0c700,
-		#8bd528,
-		#72e251,
-		#51ef76,
-		#00fa9a
+        #008080,   /* Teal Blue */
+        #FFD700,   /* Gold */
+        #B22222,   /* Deep Red */
+        #F5F5F5,   /* Creamy White */
+        #008000
 	);
 	z-index: 3;
 }
@@ -354,7 +347,7 @@ nav > ul > li::after {
 }
 
 nav > ul > li::after {
-	background: black;
+	background: #483D8B;
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
 }
 
@@ -367,7 +360,7 @@ nav > ul > li:hover::after {
 }
 
 nav > ul > li > a:hover {
-	color: black;
+	color: #483D8B;
 	transition: all 0.3s ease-in-out;
 }
 
@@ -375,35 +368,35 @@ nav > ul > li:nth-child(1) {
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s !important;
 	transition-delay: 4s !important;
 	left: 0;
-	background: #ff0000;
+	background: #008080;
 }
 
 nav > ul > li:nth-child(2) {
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s !important;
 	transition-delay: 4.3s !important;
 	left: 20%;
-	background: #e27f00;
+	background: #FFD700;
 }
 
 nav > ul > li:nth-child(3) {
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s !important;
 	transition-delay: 4.6s !important;
 	left: 40%;
-	background: #c4a700;
+	background: #B22222;
 }
 
 nav > ul > li:nth-child(4) {
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s !important;
 	transition-delay: 4.9s !important;
 	left: 60%;
-	background: #8bd528;
+	background: #F5F5F5;
 }
 
 nav > ul > li:nth-child(5) {
 	transition: all 0.8s cubic-bezier(0.215, 0.61, 0.355, 1) 0s !important;
 	transition-delay: 5.2s !important;
 	left: 80%;
-	background: #00fa9a;
+	background: #008000;
 }
 
 /* --- Responsivity --- */
